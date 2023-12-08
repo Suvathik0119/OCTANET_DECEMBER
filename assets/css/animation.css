@@ -1,0 +1,46 @@
+/* The animation code */
+@keyframes colorChange {
+    0% {
+        color: yellow;
+    }
+
+    10% {
+        color: rgb(255, 106, 0);
+    }
+
+    20% {
+        color: rgb(255, 77, 0);
+    }
+
+    30%{
+        color: #ff0084;
+    }
+
+    40%{
+        color: #ff00ee;
+    }
+
+    50%{
+        color: #1500ff;
+    }
+
+    60%{
+        color: #009dff;
+    }
+
+    70%{
+        color: #00fffb;
+    }
+
+    80%{
+        color: #00ff73;
+    }
+
+    90%{
+        color: #00ff1a;
+    }
+
+    100% {
+        color: #37ff00;
+    }
+}
