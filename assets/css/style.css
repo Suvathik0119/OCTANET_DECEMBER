@@ -43,11 +43,13 @@ nav ul li a:hover {
 
 header > button {
     padding: 9px 25px;
-    background-color: #4caf50;
+    background-color: transparent;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    display: inline-block;
+    justify-content: flex-end;
 }
 
 header > button:hover {
@@ -95,7 +97,7 @@ header > button:hover {
 
 .locale {
     animation-name: colorChange;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -138,20 +140,28 @@ i.fa {
     color: #000;
 }
 
+
+
 .social-links {
+    display: flex;
     padding: 20px;
     margin-top: 140px;
 }
 
 .social-links ul {
-    list-style: none;
+    list-style:none;
     display: flex;
+    margin: 5px 20px;
+    padding: 20px;
     justify-content: space-between;
 
 }
+.social-links ul li{
+    padding:2%;
+}
 
 .btn-social {
-    padding: 9px 25px;
+    padding: 10px 25px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -180,4 +190,6 @@ i.fa {
 .bg-linkedin {
     background-color: #063594;
 }
+
+
 
