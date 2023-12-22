@@ -1,0 +1,175 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    background: url('../img/hero-bg-1.jpg') no-repeat center center / cover;
+    width: 100%;
+    display: block;
+    padding-top: 0%;
+    position: relative;
+    z-index: 1;
+}
+
+.box:before {
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h1 {
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    padding: 5% 5% 5% 45%;
+
+    color: #FFF;
+}
+.locale {
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+form{
+    padding: 5% 25% 5% 35%;
+    padding-top: 0;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));
+    color: #f5f3f2;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+input[type="text"] , input[type="email"] , input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+input[type="submit"]
+{
+    padding: 9px 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7d7d7d;
+}
+
+
+a:hover
+{
+    color: rgba(255, 255, 255, 0.591);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
