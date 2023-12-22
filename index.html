@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./assets/css/util.css">
     <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/project.css">
 </head>
 
 <body>
@@ -31,11 +33,12 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="projects">Projects</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#footer">About</a></li>
                 </ul>
             </nav>
-            <button> <i class="fa fa-envelope-o" /></i> Contact Us</button>
+            <button id="contactButton" onclick="openEmail()"> <i class="fa fa-envelope-o" ></i> Contact Us</button>
+            <button id="contactButton" onclick="page()"> <i class="fa fa-envelope-o" ></i> client-login</button>
 
         </header>
         <!-- End Header -->
@@ -52,18 +55,18 @@
                     <ul>
                         <li><a href="https://www.facebook.com/" target="_blank"
                                 class="btn-social bg-facebook">
-                                <i class="fa fa-facebook"></i> Facebook
+                                <i class="fa fa-facebook"> Facebook</i>
                             </a></li>
                         <li><a href="https://www.youtube.com/" target="_blank"
                                 class="btn-social bg-youtube">
-                                <i class="fa fa-youtube"></i> YouTube
+                                <i class="fa fa-youtube"> YouTube</i>
                             </a></li>
                         <li><a href="https://www.whatsapp.com/" target="_blank"
                                 class="btn-social bg-whatsapp">
-                                <i class="fa fa-whatsapp"></i> whatsapp
+                                <i class="fa fa-whatsapp"> whatsapp</i>
                         <li><a href="https://www.linkedin.com/" target="_blank"
                                 class="btn-social bg-linkedin">
-                                <i class="fa fa-linkedin"></i> Linkedin
+                                <i class="fa fa-linkedin"> Linkedin</i>
                             </a></li>
 
                     </ul>
@@ -72,15 +75,182 @@
             </div>
 
             <img src="assets/img/undraw_researching_22gp.svg" alt="Learning">
-        </div>
+          </div>
 
-        <!-- End Main Content -->
 
-        <!-- Footer -->
-        <footer>
+          <!-- projects -->
+          <project id="project">
 
+            <div class="table-box">
+              <div class="table-row table-head">
+                  <div class="table-cell first-cell">
+                      <p>Project Tittle</p>
+                  </div>
+                  <div class="table-cell">
+                      <p>Price &#8360; </p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <p>Zip File Link</p>
+                  </div> 
+              </div>
+      
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>Hotel Website </p>
+                  </div>
+                  <div class="table-cell">
+                      <p> &#8360; 1500.00</p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href= "https://drive.google.com/file/d/1BW8YJT6tTtALfooqGQX5lfC4L9mhzm-t/view?usp=drivesdk" >Download</a>
+                  </div>   
+              </div>
+      
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>Fiver Website </p>
+                  </div>
+                  <div class="table-cell">
+                      <p> &#8360; 1000.00</p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href="https://drive.google.com/file/d/1BTiVt3ZqvD_RXAw3CYNksZQprivp63zp/view?usp=drivesdk">Download</a>
+                  </div>
+              </div>
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>photography Website</p>
+                  </div>
+                  <div class="table-cell">
+                      <p> &#8360; 1500.00 </p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href="https://drive.google.com/file/d/1BalmhXWLg1XDd1AHyH-CNbI5I7fLLfQj/view?usp=drivesdk">Download</a>
+                  </div>
+              </div>
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>School Result System(.php) </p>
+                  </div>
+                  <div class="table-cell">
+                      <p>&#8360; 2000.00</p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href="https://drive.google.com/file/d/1Bb01rA-23Q4edvp9zwUwHNidmmN9GsMA/view?usp=drivesdk">Download</a>
+                  </div>
+              </div>
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>Student Result Website(.php) </p>
+                  </div>
+                  <div class="table-cell">
+                      <p>&#8360; 2000.00</p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href="https://drive.google.com/file/d/1BbLq4TCjs7CPnbWzxytflBZCxvrTDMKf/view?usp=drivesdk">Download</a>
+                  </div>
+              </div>
+      
+              <div class="table-row">
+                  <div class="table-cell first-cell">
+                      <p>Vlog Website </p>
+                  </div>
+                  <div class="table-cell">
+                      <p>&#8360; 1000.00</p>
+                  </div>
+                  <div class="table-cell last-cell">
+                      <a href="https://drive.google.com/file/d/1BdZFCm41fUYkH9PpWcnAtwhaS56SGVQw/view?usp=drivesdk">Download</a>
+                  </div>
+              </div>
+
+          </project>
+        
+        <!-- about us -->
+        <footer id="footer">
+            <section class="footer">
+                <div class="footer-row">
+                  <div class="footer-col">
+                    <h4>Info</h4>
+                    <ul class="links">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Compressions</a></li>
+                      <li><a href="#">Customers</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Collection</a></li>
+                    </ul>
+                  </div>
+          
+                  <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="links">
+                      <li><a href="#">Free Designs</a></li>
+                      <li><a href="#">Latest Designs</a></li>
+                      <li><a href="#">Themes</a></li>
+                      <li><a href="#">Popular Designs</a></li>
+                      <li><a href="#">Art Skills</a></li>
+                      <li><a href="#">New Uploads</a></li>
+                    </ul>
+                  </div>
+          
+                  <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="links">
+                      <li><a href="#">Customer Agreement</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">GDPR</a></li>
+                      <li><a href="#">Security</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Media Kit</a></li>
+                    </ul>
+                  </div>
+          
+                  <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>
+                      Subscribe to our newsletter for a weekly dose
+                      of news, updates, helpful tips, and
+                      exclusive offers.
+                    </p>
+                    <form action="#">
+                      <input type="text" placeholder="Your email" required>
+                      <button type="submit">SUBSCRIBE</button>
+                    </form>
+                    <div class="icons">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                      <i class="fa-brands fa-github"></i>
+                    </div>
+                  </div>
+                </div>
+              </section>
         </footer>
-        <!-- End Footer -->
+       <!-- script for contect us btn -->
+
+        <script>
+            function openEmail() {
+                var recipientEmail = "k4suvathik@gmail.com";//enter your email/gmail here
+                var subject = "Inquiry from your Website";
+                var body = "Hello there,";
+        
+            
+                var mailtoLink = "mailto:" + encodeURIComponent(recipientEmail) +
+                                 "?subject=" + encodeURIComponent(subject) +
+                                 "&body=" + encodeURIComponent(body);
+        
+                window.location.href = mailtoLink;
+            }
+        </script>
+        <script>
+            function page(){
+                window.location.href="register.html";
+            }
+        </script>
     </div>
 
 
